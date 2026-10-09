@@ -30,5 +30,3 @@ How the CLI Displays It
 
 The CLI layer handles this using a Try-Except Block.
 It catches the exception [health], prevents the program from crashing rudely, and prints a clean, user-friendly error message to the terminal (often styled with color or a clear indicator).
-
-# W

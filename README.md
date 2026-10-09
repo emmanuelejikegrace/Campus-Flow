@@ -1,2 +1,6 @@
 # Campus-Flow
 a Python command-line ticket manager that records problems, prioritizes work, assigns responsibility, and tracks progress.
+
+# Team Members 
+Ejike Emmanuel
+Theophilus Iornumbe
