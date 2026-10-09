@@ -30,3 +30,14 @@ How the CLI Displays It
 
 The CLI layer handles this using a Try-Except Block.
 It catches the exception [health], prevents the program from crashing rudely, and prints a clean, user-friendly error message to the terminal (often styled with color or a clear indicator).
+
+# WHAT IS THE EXPECTED RETURN VALUE WHEN A TICKET IS CREATED, ASSIGNED, OR UPDATED
+
+* When Created: Returns the new ticket's details, including its unique ID and initial status.
+
+* When Assigned: Returns the updated ticket with the assigned user's ID or name.
+
+* When Updated: Returns the ticket with the modified fields and current status.
+
+* On failure: Raises an exception or returns a structured error explaining the problem.
+
