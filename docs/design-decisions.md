@@ -41,3 +41,12 @@ It catches the exception [health], prevents the program from crashing rudely, an
 
 * On failure: Raises an exception or returns a structured error explaining the problem.
 
+# HOW CAN WE TEST BUSINESS LOGIC WITHOUT ASKING FOR INTERACTIVE INPUT INSIDE EACH TEST?
+
+* By Separating business logic from user input: Keep input() and print() in the CLI layer.
+
+* By Using function parameters: Pass test data directly to business functions.
+
+* Bu Testing with pytest: Assert expected return values and errors without interactive input.
+
+* Mock dependencies: Replace file operations or external services when necessary.
