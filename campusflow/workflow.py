@@ -102,3 +102,21 @@ class TicketManager:
             
         ticket.status = "open"
         return ticket
+
+        # added here
+    def save(self, filepath=None):
+        #Save the manager's tickets to JSON.
+
+        if filepath is None:
+            return save_tickets(self.tickets)
+
+        return save_tickets(self.tickets, filepath)
+
+
+    def load(self, filepath=None):
+        # Load tickets and synchronize the next ticket ID."""
+
+        if filepath is None:
+            return load_into_manager(self)
+
+            return load_into_manager(self, filepath)
