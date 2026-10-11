@@ -34,7 +34,7 @@ class TestWorkQueue(unittest.TestCase):
         self.manager.create_ticket(
             "Medium priority issue",
             "Software",
-            "low",
+            "medium",
             4,
         )
 

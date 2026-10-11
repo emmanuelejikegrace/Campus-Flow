@@ -9,9 +9,7 @@ PRIORITY_ORDER = {
 def get_work_queue(tickets):
     """
     Return open tickets sorted by priority and then numeric ticket ID.
-
-    Priority order:
-    critical -> high -> medium -> low
+    Priority order: critical -> high -> medium -> low.
     """
 
     open_tickets = [
@@ -28,10 +26,10 @@ def get_work_queue(tickets):
         )
     )
 
-    def generate_report(tickets):
+
+def generate_report(tickets):
     """
-    Return a report containing total tickets,
-    ticket counts by status, and ticket counts by priority.
+    Return total tickets and counts by status and priority.
     """
 
     status_counts = {
