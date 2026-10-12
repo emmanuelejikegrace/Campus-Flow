@@ -20,9 +20,7 @@ def show_work_queue(manager):
 
  # Add another help
 
- from campusflow.reports import generate_report
-
-
+from campusflow.reports import generate_report
 def show_reports(manager):
     report = generate_report(manager.tickets)
 
